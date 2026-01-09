@@ -22,16 +22,13 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <motion.div 
-            className="flex items-center gap-2"
+            className="flex items-center"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-              <Leaf className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <span className="font-heading font-bold text-xl text-foreground hidden sm:block">
-              Botanica
+            <span className="font-heading font-bold text-2xl text-primary">
+              SeedSphere<span className="text-accent">.</span>
             </span>
           </motion.div>
 
