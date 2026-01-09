@@ -36,11 +36,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-primary-foreground/20 flex items-center justify-center">
-                <Leaf className="w-6 h-6" />
-              </div>
-              <span className="font-heading font-bold text-xl">Botanica</span>
+            <div className="flex items-center mb-4">
+              <span className="font-heading font-bold text-2xl">
+                SeedSphere<span className="text-accent">.</span>
+              </span>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               Your comprehensive guide to houseplants. Discover, learn, and grow with us.
@@ -91,7 +90,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-primary-foreground/50">
-            © 2026 Botanica. All rights reserved.
+            © 2026 SeedSphere. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <a href="#" className="text-primary-foreground/50 hover:text-primary-foreground transition-colors">
