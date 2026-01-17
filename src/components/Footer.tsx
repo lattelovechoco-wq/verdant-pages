@@ -31,10 +31,9 @@ const Footer = () => {
         </div>
       </div>
 
-  
-
-        {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row items-center justify-between gap-4">
+      {/* Bottom Bar */}
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-primary-foreground/50">
             © 2026 SeedSphere. All rights reserved.
           </p>
